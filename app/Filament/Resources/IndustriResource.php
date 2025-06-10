@@ -39,7 +39,7 @@ class IndustriResource extends Resource
                 Forms\Components\TextInput::make('kontak')
                     ->required()
                     ->numeric()
-                    ->mask('99999999')
+                    ->mask('99999999999')
                     ->maxLength(255),
                 Forms\Components\TextInput::make('email')
                     ->email()

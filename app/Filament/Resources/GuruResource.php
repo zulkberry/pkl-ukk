@@ -30,7 +30,7 @@ class GuruResource extends Resource
                     ->label('NIP')
                     ->required()
                     ->numeric()
-                    ->mask('99999999')
+                    ->mask('999999999999999999')
                     ->maxLength(255),
 
                 Forms\Components\Select::make('gender')
