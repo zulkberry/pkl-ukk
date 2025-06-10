@@ -21,6 +21,7 @@ class SiswaSeeder extends Seeder
                 'alamat' => 'Lamongan, Indonesia',
                 'kontak' => '08199887641',
                 'email' => 'ninunana@gmail.com',
+                'status' => 0,
             ],
             [
                 'nama' => 'Prana Waluya Jati',
@@ -29,6 +30,7 @@ class SiswaSeeder extends Seeder
                 'alamat' => 'Jogja, Indonesia',
                 'kontak' => '08123456789',
                 'email' => 'nananinu@gmail.com',
+                'status' => 0,
             ],
             [
                 'nama' => 'Jonathan Requiem',
@@ -37,6 +39,7 @@ class SiswaSeeder extends Seeder
                 'alamat' => 'Jember, Indonesia',
                 'kontak' => '01058239471',
                 'email' => 'jemie@gmail.com',
+                'status' => 0,
             ],
         ]);
     }
